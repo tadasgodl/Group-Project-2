@@ -1,0 +1,19 @@
+.history__background {
+    background-image: url("https://cyclingtips.com/wp-content/uploads/2019/10/85C_6110.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+}
+.racer {
+    font-size: 35px;
+    font-family: 'Anton', sans-serif;
+}
+.leaderboard {
+    padding-left: 400px;
+}
+.title {
+    color: red;
+    font-size: 45px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
