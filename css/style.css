@@ -1,0 +1,130 @@
+/*
+Global
+*/
+*,*::after,*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', 'Helvetica Neue', 'Arial', sans-serif;
+}
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/*
+Header
+*/
+
+
+.nav {
+    position: fixed;
+    background-color: rgba(100, 204, 206, 1);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav__img {
+    width: 80px;
+    height: auto;
+    margin-left: 70px;
+    padding-top: 10px;
+}
+.nav__logo {
+    cursor: pointer;
+}
+.nav__list {
+    display: flex;
+    height: 70px;
+    align-items: center;
+}
+.nav__item {
+    margin-right: 15px;
+    font-size: 20px;
+    color: #fff;
+    transition: color 0.4s;
+}
+.nav__item:last-child {
+    margin-right: 70px;
+}
+.nav__item:hover {
+    color: grey;
+    transition: color 0.4s;
+}
+
+/*
+Live translation section
+*/
+.race {
+    background-image: url('../images/race_track.jpg');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.race__container {
+    display: flex;
+    width: 100%;
+    height: 40%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.race__container h1 {
+    font-size: 35px;
+    letter-spacing: 5px;
+    color: azure;
+}
+.race__container h2 {
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: #333;
+    margin-top: 20px;
+}
+.race__participants-1 {
+    position: absolute;
+    content: url("../images/first_racer.jpg");
+    width: 100px;
+    height: 100px;
+    bottom: 200px;
+}
+.race__participants-2 {
+    position: absolute;
+    content: url("../images/second_racer.jpg");
+    width: 100px;
+    height: 100px;
+    bottom: 200px;
+}
+.race__participants-3 {
+    position: absolute;
+    content: url("../images/third_racer.jpg");
+    width: 100px;
+    height: 100px;
+    bottom: 200px;
+}
+.race__participants-4 {
+    position: absolute;
+    content: url("../images/fourth_racer.jpg");
+    width: 100px;
+    height: 100px;
+    bottom: 200px;
+}
+.race__participants-5 {
+    position: absolute;
+    content: url("../images/fifth_racer.jpg");
+    width: 100px;
+    height: 100px;
+    bottom: 200px;
+}
+.race__participants-6 {
+    position: absolute;
+    content: url("../images/sixth_racer.jpg");
+    width: 100px;
+    height: 100px;
+    bottom: 200px;
+}
