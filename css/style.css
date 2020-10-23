@@ -1,0 +1,45 @@
+.participants {
+    background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    color: white;
+}
+
+.participants__positioning {
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img {
+    margin: 5px;
+}
+.gif {
+    height: 300px;
+    width: 30%;
+}
+.participants__title,
+.bloopers__title {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 35px;
+    color: white;
+}
+.section-div {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bloopers {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main {
+    background-color: rgba(0, 0, 0, 0.6);
+}
